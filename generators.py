@@ -1,6 +1,6 @@
 # -*- config: utf8 -*-
 
-def fun(text):
+def generator_substr(text):
     beginning = 0
     end = 1
 
@@ -15,7 +15,6 @@ def fun(text):
         end += 1
 
 
-f = fun('generator')
-len_substring = 0
-for signs in f:
+gs = generator_substr('generator')
+for signs in gs:
     print(signs)
